@@ -1,0 +1,58 @@
+Sentence:
+Initial suspicion of prostate cancer is based on an abnormal digital rectal exam (DRE) or an elevated PSA level.
+OpenIE Triples:
+{'subject': 'Initial suspicion', 'relation': 'is based on', 'object': 'abnormal digital exam'}
+{'subject': 'Initial suspicion', 'relation': 'is based on', 'object': 'DRE'}
+{'subject': 'Initial suspicion', 'relation': 'is based on', 'object': 'rectal exam'}
+{'subject': 'suspicion', 'relation': 'is based on', 'object': 'abnormal digital rectal exam'}
+{'subject': 'Initial suspicion', 'relation': 'is based on', 'object': 'digital rectal exam'}
+{'subject': 'suspicion', 'relation': 'is', 'object': 'based'}
+{'subject': 'Initial suspicion', 'relation': 'is based on', 'object': 'abnormal digital rectal exam'}
+{'subject': 'suspicion', 'relation': 'is based on', 'object': 'exam'}
+{'subject': 'Initial suspicion', 'relation': 'is based on', 'object': 'exam'}
+{'subject': 'Initial suspicion', 'relation': 'is', 'object': 'based'}
+{'subject': 'Initial suspicion', 'relation': 'is based on', 'object': 'abnormal exam'}
+{'subject': 'suspicion', 'relation': 'is based on', 'object': 'DRE'}
+{'subject': 'suspicion', 'relation': 'is based on', 'object': 'rectal exam'}
+{'subject': 'suspicion', 'relation': 'is based on', 'object': 'digital exam'}
+{'subject': 'suspicion', 'relation': 'is based on', 'object': 'abnormal rectal exam'}
+{'subject': 'suspicion', 'relation': 'is based on', 'object': 'digital rectal exam'}
+{'subject': 'Initial suspicion', 'relation': 'is based on', 'object': 'digital exam'}
+{'subject': 'suspicion', 'relation': 'is based on', 'object': 'abnormal exam'}
+{'subject': 'Initial suspicion', 'relation': 'is based on', 'object': 'abnormal rectal exam'}
+{'subject': 'suspicion', 'relation': 'is based on', 'object': 'abnormal digital exam'}
+
+Sentence:
+A separate NCCN Guidelines Panel has written guidelines for prostate cancer early detection (see the NCCN Guidelines for Prostate Early Detection, available at www.NCCN.org).
+OpenIE Triples:
+{'subject': 'NCCN Guidelines Panel', 'relation': 'has written guidelines at_time', 'object': 'detection'}
+{'subject': 'separate NCCN Guidelines Panel', 'relation': 'has written guidelines at_time', 'object': 'detection'}
+{'subject': 'NCCN Guidelines Panel', 'relation': 'has written guidelines at_time', 'object': 'early detection'}
+{'subject': 'separate NCCN Guidelines Panel', 'relation': 'has written guidelines at_time', 'object': 'early detection'}
+
+Sentence:
+Definitive diagnosis requires biopsies of the prostate, usually performed by a urologist using a needle under transrectal ultrasound (TRUS) guidance.
+OpenIE Triples:
+{'subject': 'Definitive diagnosis', 'relation': 'requires', 'object': 'biopsies'}
+{'subject': 'diagnosis', 'relation': 'requires', 'object': 'biopsies'}
+{'subject': 'diagnosis', 'relation': 'requires', 'object': 'biopsies of prostate'}
+{'subject': 'Definitive diagnosis', 'relation': 'requires', 'object': 'biopsies of prostate'}
+
+Sentence:
+A pathologist assigns a Gleason primary and secondary grade to the biopsy specimen.
+OpenIE Triples:
+{'subject': 'pathologist', 'relation': 'assigns', 'object': 'Gleason'}
+
+Sentence:
+Clinical staging is based on the TNM (tumor, node, metastasis) classification from the AJCC Staging Manual, Eighth Edition.
+OpenIE Triples:
+{'subject': 'Clinical staging', 'relation': 'is based on', 'object': 'TNM classification'}
+{'subject': 'Clinical staging', 'relation': 'is', 'object': 'based'}
+{'subject': 'staging', 'relation': 'is', 'object': 'based'}
+{'subject': 'AJCC', 'relation': 'from classification is', 'object': 'Eighth Edition'}
+{'subject': 'staging', 'relation': 'is based on', 'object': 'Eighth Edition'}
+{'subject': 'Clinical staging', 'relation': 'is based on', 'object': 'Eighth Edition'}
+{'subject': 'Clinical staging', 'relation': 'is based on', 'object': 'TNM classification from AJCC'}
+{'subject': 'staging', 'relation': 'is based on', 'object': 'TNM classification from AJCC'}
+{'subject': 'staging', 'relation': 'is based on', 'object': 'TNM classification'}
+
